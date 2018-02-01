@@ -4,9 +4,9 @@ import React, { Component } from "react";
 import "./Navigation.css";
 
 export default class Navigation extends Component {
-	constructor() {
-		super();
-	}
+	// constructor() {
+	// 	super();
+	// }
 
 	render() {
 		return (
@@ -20,6 +20,12 @@ export default class Navigation extends Component {
 					<div> Popular </div>
 					<div> Newsletter </div>
 					<div> About </div>
+				</div>
+				<div className="social-buttons">
+					<div><i className="fab fa-facebook"></i></div>
+					<div><i className="fab fa-instagram"></i></div>
+					<div><i className="fab fa-linkedin"></i></div>
+					<div><i className="fab fa-twitter"></i></div>
 				</div>
 			</div>
 		)

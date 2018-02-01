@@ -1,0 +1,23 @@
+.image {
+	position: relative;
+	color: grey;
+}
+
+img {
+	width: 100%;
+	border-radius: 5%;
+}
+
+.article-info {
+	position: absolute;
+	top: 0px;
+	background-color: rgba(256, 256, 256, .6);
+	padding: 10px;
+	width: 100%;
+}
+
+.date {
+	margin: 0;
+	font-style: italic;
+	font-size: .75em;
+}

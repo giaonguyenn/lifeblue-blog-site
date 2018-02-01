@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Navigation from "./components/Navigation/Navigation";
+import Articles from "./components/Articles/Articles";
 
 class App extends Component {
   render() {
     return (
-      <Navigation />
+      <div>
+        <Navigation />
+        <Articles />
+      </div>
     );
   }
 }

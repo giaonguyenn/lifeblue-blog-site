@@ -1,0 +1,21 @@
+.content {
+	padding: 10px;
+    max-width: 350px;
+    max-height: 500px;
+    overflow-y: scroll;
+    border-radius: 5%;
+    box-shadow: .5px 2px 5px;
+    transition:all 0.3s ease;
+}
+
+.content::-webkit-scrollbar {
+	display: none;
+}
+
+.content:hover {
+	box-shadow: none;
+	border: 3px solid #d7f2e7;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
