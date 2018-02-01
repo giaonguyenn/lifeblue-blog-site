@@ -1,0 +1,29 @@
+.sidenav {
+	width: 215px;
+	height: 100vh;
+	border: 1px solid grey;
+	padding-left: 35px;
+}
+
+.logo {
+	padding-top: 25px;
+	font-family: "Rammetto One", sans-serif;
+}
+
+.mod {
+	font-size: 40px;
+	color: grey;
+}
+
+.ui {
+	color: #6FECCA;
+}
+
+.menu {
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+}
+
+.menu div {
+	padding-top: 18px;
+}
