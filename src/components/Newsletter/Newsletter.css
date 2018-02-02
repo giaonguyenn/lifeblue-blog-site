@@ -1,0 +1,82 @@
+.newsletter {
+	margin-left: 250px;
+	width: 82%;
+	height: 200px;
+	background-color: rgba(111, 236, 202, .6);
+	color: white;
+	position: relative;
+	text-align: center;
+}
+
+.input-field {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label .label-text {
+ 	color: grey;
+ 	cursor: text;
+ 	font-size: 1.5em;
+ 	line-height: 3em;
+ 	transform: translateY(-43px);
+ 	transition: all 0.3s;
+}
+
+label input {
+  margin-top: 25px;
+  background-color: rgba(256, 256, 256, .6);
+  border: 0;
+  border-radius: 5px;
+  width: 75%;
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 10px;
+  text-align: center;
+  transition: all 0.3s;
+  color: grey;
+}
+
+label input:focus {
+ 	max-width: 100%;
+ 	width: 85%;
+ 	font-size: 1.5em;
+ 	color: grey;
+}
+
+label input:focus + .label-text {
+ 	color: grey;
+ 	font-size: 1em;
+  -moz-transform: translateY(-75px);
+  -ms-transform: translateY(-75px);
+  -webkit-transform: translateY(-75px);
+  transform: translateY(-75px);
+}
+
+label input:valid + .label-text {
+  font-size: 1em;
+  color: grey;
+  /*transform: translateY(-75px);*/
+}
+
+button {
+  position: absolute;
+  top: 100px;
+  left: 135px;
+  padding: 10px;
+  background-color: transparent;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}

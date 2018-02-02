@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
 
 import "./Navigation.css";
 
 export default class Navigation extends Component {
-	// constructor() {
-	// 	super();
-	// }
 
 	render() {
 		return (
@@ -15,11 +11,11 @@ export default class Navigation extends Component {
 					<h1 className="mod"> MOD<span className="ui">UI</span></h1>
 				</div>
 				<div className="menu">
-					<div> Articles </div>
-					<div> Archive </div>
-					<div> Popular </div>
-					<div> Newsletter </div>
-					<div> About </div>
+					<a href="#articles"><div> Articles </div></a>
+					<a href="#archive"><div> Archive </div></a>
+					<a href="#popular"><div> Popular </div></a>
+					<a href="#newsletter"><div> Newsletter </div></a>
+					<a href="#about"><div> About </div></a>
 				</div>
 				<div className="social-buttons">
 					<div><i className="fab fa-facebook"></i></div>

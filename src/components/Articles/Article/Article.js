@@ -7,19 +7,36 @@ import Summary from "./Summary/Summary";
 
 export default class Article extends Component {
 	render() {
-		console.log(this.props);
-		const articles = this.props.articles[0];
-		console.log(articles);
+		const { articles } = this.props;
+
 		return (
-			<div className="content">
-				<Image 
-					title = { articles.title }
-					date = { articles.date }
-					img = { articles.img }
-				/>
-				<Summary 
-					summary = { articles.summary } 
-				/>
+			<div className="content-container">
+				{ articles.map( (article, index) => {
+					let className= "";
+					if(index.toString().match(/0|9/) !== null) {
+						className = "feature"
+
+					} else {
+						className = "nonfeature"
+					}
+					return (
+						//<div className={ className } key= { index }>
+							<a href={ article.link } target="_blank">
+							<div className="content">
+								<Image 
+									title = { article.title }
+									author = { article.author }
+									date = { article.date }
+									img = { article.img }
+								/>
+								<Summary 
+									summary = { article.summary }
+								/>
+							</div>
+							</a>
+						//</div>
+					)
+				})}
 			</div>
 		)
 	}

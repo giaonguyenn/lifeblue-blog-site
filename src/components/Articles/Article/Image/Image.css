@@ -1,18 +1,20 @@
 .image {
 	position: relative;
 	color: grey;
+	margin: -15px;
 }
 
 img {
 	width: 100%;
-	border-radius: 5%;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
 }
 
 .article-info {
 	position: absolute;
 	top: 0px;
 	background-color: rgba(256, 256, 256, .6);
-	padding: 10px;
+	padding: 20px;
 	width: 100%;
 }
 
