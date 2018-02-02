@@ -10,7 +10,7 @@ export default class Newsletter extends Component {
 					<h3> Sign up to receive more UI inspirations! </h3>
 					<label>
 			            <input type="text" />
-			            <div class="label-text"><i class="fa fa-envelope prefix grey-text"></i> Email Address </div>
+			            <div className="label-text"><i className="fa fa-envelope prefix grey-text"></i> Email Address </div>
 			    	<button type="submit">Submit</button>
 			        </label>
 				</div>

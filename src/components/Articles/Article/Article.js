@@ -12,16 +12,16 @@ export default class Article extends Component {
 		return (
 			<div className="content-container">
 				{ articles.map( (article, index) => {
-					let className= "";
-					if(index.toString().match(/0|9/) !== null) {
-						className = "feature"
+					// let className= "";
+					// if(index.toString().match(/0|9/) !== null) {
+					// 	className = "feature"
 
-					} else {
-						className = "nonfeature"
-					}
+					// } else {
+					// 	className = "nonfeature"
+					// }
 					return (
 						//<div className={ className } key= { index }>
-							<a href={ article.link } target="_blank">
+							<a href={ article.link } target="_blank" key = { index }>
 							<div className="content">
 								<Image 
 									title = { article.title }

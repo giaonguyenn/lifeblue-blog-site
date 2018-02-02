@@ -3,7 +3,7 @@
 	width: 82%;
 	height: 200px;
 	background-color: rgba(111, 236, 202, .6);
-	color: white;
+	color: grey;
 	position: relative;
 	text-align: center;
 }
@@ -17,7 +17,7 @@
 }
 
 label .label-text {
- 	color: grey;
+ 	/*color: grey;*/
  	cursor: text;
  	font-size: 1.5em;
  	line-height: 3em;
@@ -37,7 +37,7 @@ label input {
   padding: 5px 10px;
   text-align: center;
   transition: all 0.3s;
-  color: grey;
+  /*color: grey;*/
 }
 
 label input:focus {
@@ -48,7 +48,7 @@ label input:focus {
 }
 
 label input:focus + .label-text {
- 	color: grey;
+ 	/*color: grey;*/
  	font-size: 1em;
   -moz-transform: translateY(-75px);
   -ms-transform: translateY(-75px);
@@ -58,7 +58,7 @@ label input:focus + .label-text {
 
 label input:valid + .label-text {
   font-size: 1em;
-  color: grey;
+  /*color: grey;*/
   /*transform: translateY(-75px);*/
 }
 

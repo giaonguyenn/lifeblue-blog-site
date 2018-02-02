@@ -1,0 +1,19 @@
+.yearCard {
+	width: 100%;
+}
+
+.year-container {
+	width: 25%;
+	transform: translate(33%, 50%);
+}
+
+.article-links {
+	width: 141%;
+    height: 215px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 110%;
+    top: -1%;
+    color: green;
+}

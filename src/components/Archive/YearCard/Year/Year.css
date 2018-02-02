@@ -1,0 +1,12 @@
+.year {
+	background-color: white;
+	color: #6FECCA;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.year:hover {
+	cursor: pointer;
+}

@@ -38,6 +38,36 @@
 	transition:all 0.3s ease;
 }
 
+.active1 {
+	background-color: #6FECCA;
+	color: white;
+	padding-left: 15px;
+}
+
+.active2 {
+	background-color: #6FECCA;
+	color: white;
+	padding-left: 15px;
+}
+
+.active3 {
+	background-color: #6FECCA;
+	color: white;
+	padding-left: 15px;
+}
+
+.active4 {
+	background-color: #6FECCA;
+	color: white;
+	padding-left: 15px;
+}
+
+.active5 {
+	background-color: #6FECCA;
+	color: white;
+	padding-left: 15px;
+}
+
 .social-buttons {
 	display: flex;
 	position: absolute;
