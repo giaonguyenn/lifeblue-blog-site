@@ -7,6 +7,7 @@ import Archive from "./components/Archive/Archive";
 import Popular from "./components/Popular/Popular";
 import Newsletter from "./components/Newsletter/Newsletter";
 import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Popular />
           <Newsletter />
           <About />
+          <Footer />
         </div>
       </div>
     );

@@ -1,0 +1,12 @@
+.links {
+  color: grey;
+  padding: 5px 25px;
+}
+
+#links {
+  margin: 3px;
+}
+
+#links:hover {
+  color: #6FECCA;
+}

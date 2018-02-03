@@ -3,21 +3,25 @@ import React, { Component } from "react";
 import "./YearCard.css";
 
 import Year from "./Year/Year";
+import Links from "./Links/Links";
 
 export default class YearCard extends Component {
 	constructor(props) {
 		super(props);
 
 		this.state = {
-			showArticleDropdown: false
+			showArticleDropdown: false,
+			year: 0,
+			yearMatches: false
 		}
 
 		this.handleClick = this.handleClick.bind(this);
 	}
 
-	handleClick() {
+	handleClick(year) {
 		this.setState ({
-			showArticleDropdown: !this.state.showArticleDropdown
+			showArticleDropdown: !this.state.showArticleDropdown,
+			year: year
 		})
 	}
 
@@ -26,20 +30,26 @@ export default class YearCard extends Component {
 
 		return (
 			<div className="yearCard">
+				{/* <div className="article-linksbg"></div> */}
 				{ archives.map( (archive, index) => {
 					return (
-						// const articles = archive.articles;
 						<div className="year-container" key = { index }>
-							<Year 
+							<Year
 								year = { archive.year }
 								handleClick = { this.handleClick.bind(this) }
 								showArticleDropdown = { this.state.showArticleDropdown }
 							/>
-							{ 
+							{
 								this.state.showArticleDropdown &&
-								<div className="article-links">
-									<p>Links</p>
-								</div>
+									<div className="article-links">
+										{
+											this.state.year.year === archive.year &&
+											<Links
+												archive = { archive }
+
+											/>
+										}
+									</div>
 							}
 						</div>
 					)
