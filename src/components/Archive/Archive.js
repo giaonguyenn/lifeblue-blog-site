@@ -13,7 +13,7 @@ export default class Archive extends Component {
 					title: "7 Rules for Creating Goregous UI",
 					date: "11.13.14",
 					link: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
-				}, 
+				},
 				{
 					title: "Why Her Will Dominate UI Design Even More Than Minority Report",
 					date: "01.13.14",
@@ -24,7 +24,7 @@ export default class Archive extends Component {
 					date: "11.10.14",
 					link: "https://www.usertesting.com/blog/2014/11/10/dont-hire-ui-ux-designer/"
 				}]
-			}, 
+			},
 			{
 				year: 2015,
 				articles: [
@@ -43,7 +43,7 @@ export default class Archive extends Component {
 					date: "09.15.15",
 					link: "https://www.usertesting.com/blog/2015/09/15/29-user-interface-design-resources-the-ultimate-list/"
 				}]
-			}, 
+			},
 			{
 				year: 2016,
 				articles: [
@@ -62,7 +62,7 @@ export default class Archive extends Component {
 					date: "02.24.16",
 					link: "https://www.elegantthemes.com/blog/resources/10-rules-of-good-ui-design-to-follow-on-every-web-design-project"
 				}]
-			}, 
+			},
 			{
 				year: 2017,
 				articles: [
@@ -86,6 +86,7 @@ export default class Archive extends Component {
 
 		return (
 			<div className="archive" id="archive">
+				<h4>Search Archive by Year</h4>
 				<YearCard archives = { archives }/>
 			</div>
 		)
