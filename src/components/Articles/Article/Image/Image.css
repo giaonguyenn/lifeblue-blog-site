@@ -17,10 +17,11 @@ img {
 	padding: 20px;
 	width: 100%;
 	color: #565353;
+	font-size: .8em;
 }
 
 .date {
 	margin: 0;
 	font-style: italic;
-	font-size: .75em;
+	/* font-size: .75em; */
 }

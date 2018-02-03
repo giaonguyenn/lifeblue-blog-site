@@ -3,17 +3,17 @@
 }
 
 .year-container {
-	width: 25%;
+	width: 20%;
 	transform: translate(33%, 50%);
 }
 
 .article-links {
-	width: 141%;
-    height: 215px;
-    background-color: white;
-    border-radius: 5px;
-    position: absolute;
-    left: 110%;
-    top: -1%;
-    color: green;
+	width: 200%;
+	height: 190px;
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	left: 110%;
+	top: 1%;
+	color: green;
 }

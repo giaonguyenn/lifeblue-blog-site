@@ -11,13 +11,17 @@ import About from "./components/About/About";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navigation />
-        <Articles />
-        <Archive />
-        <Popular />
-        <Newsletter />
-        <About />
+      <div className="main">
+        <div className="nav">
+          <Navigation />
+        </div>
+        <div className="body">
+          <Articles />
+          <Archive />
+          <Popular />
+          <Newsletter />
+          <About />
+        </div>
       </div>
     );
   }

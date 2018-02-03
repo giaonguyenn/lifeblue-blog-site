@@ -17,7 +17,7 @@ export default class Year extends Component {
 		return (
 			<div className="year" onClick= { () => { this.handleClick() } }>
 				<div>
-					<h2>{ archive.year } <span><i className="fa fa-caret-right prefix grey-text"></i></span> </h2>
+					<p>{ archive.year } <span><i className="fa fa-caret-right prefix grey-text"></i></span> </p>
 				</div>
 			</div>
 		)
