@@ -61,7 +61,7 @@ label input:valid + .label-text {
   /*transform: translateY(-75px);*/
 }
 
-button {
+#submitButton {
   position: absolute;
   top: 100px;
   left: 135px;
@@ -72,10 +72,10 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+#submitButton:hover {
   cursor: pointer;
 }
 
-button:focus {
+#submitButton:focus {
   outline: none;
 }

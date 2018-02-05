@@ -30,6 +30,8 @@
 .credentials div h4 {
 	color: white;
 	background-color: grey;
+	border-radius: 5px;
+	padding: 5px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }

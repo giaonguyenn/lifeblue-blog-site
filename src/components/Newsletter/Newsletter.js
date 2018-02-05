@@ -11,7 +11,7 @@ export default class Newsletter extends Component {
 					<label>
 			            <input type="text" />
 			            <div className="label-text"><i className="fa fa-envelope prefix grey-text"></i> Email Address </div>
-			    	<button type="submit">Submit</button>
+			    	<button id="submitButton" type="submit">Submit</button>
 			        </label>
 				</div>
 			</div>

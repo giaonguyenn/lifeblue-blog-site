@@ -1,0 +1,31 @@
+.tabbed-title {
+  display: flex;
+  position: relative;
+}
+
+.labels {
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  color: grey;
+  border: 1px solid transparent;
+  border-top: 1px solid #B3B3B3;
+  background-color: white;
+  font-size: .8em;
+  width: 200px;
+}
+
+.labels:hover {
+  cursor: pointer;
+  color: #53DBD6;
+}
+
+.labels:focus {
+  outline: none;
+  color: #53DBD6;
+  border: 1px solid #53DBD6;
+  border-top: 2px solid #53DBD6;
+  border-bottom: 1px solid #fff;
+}
+
+.labels:active {
+}
