@@ -16,7 +16,7 @@
 }
 
 .ui {
-	color: #6FECCA;
+	color: #53DBD6;
 }
 
 .menu {
@@ -32,38 +32,38 @@
 
 .menu div:hover {
 	cursor: pointer;
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 	transition:all 0.3s ease;
 }
 
 .active1 {
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 }
 
 .active2 {
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 }
 
 .active3 {
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 }
 
 .active4 {
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 }
 
 .active5 {
-	background-color: #6FECCA;
+	background-color: #53DBD6;
 	color: white;
 	padding-left: 15px;
 }
@@ -80,5 +80,5 @@
 
 .social-buttons div:hover {
 	cursor: pointer;
-	color: #6FECCA;
+	color: #53DBD6;
 }

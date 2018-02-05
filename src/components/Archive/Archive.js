@@ -86,7 +86,7 @@ export default class Archive extends Component {
 
 		return (
 			<div className="archive" id="archive">
-				<h4>Search Archive by Year</h4>
+				<h3>Search Archive by Year</h3>
 				<YearCard archives = { archives }/>
 			</div>
 		)
